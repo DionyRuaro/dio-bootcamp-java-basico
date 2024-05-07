@@ -9,7 +9,6 @@ public class VerificacaoChequeEspecial {
         double saque = scanner.nextDouble();
         double limiteChequeEspecial = 500;
 
-        // TODO: Verifique se o saque não ultrapassa o saldo disponível na conta:
         if (saldo >= saque) {
             System.out.println("Transacao realizada com sucesso.");
         } else if (saldo + limiteChequeEspecial >= saque) {
